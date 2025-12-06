@@ -253,6 +253,7 @@ class RagnarokFramework:
         ascii_banner = pyfiglet.figlet_format("RAGNAROK")
         console.print(f"[bold red]{ascii_banner}[/bold red]")
         console.print("[bold white]    RED TEAM AUTOMATION FRAMEWORK v2.0[/bold white]")
+        console.print("[bold yellow]    Created by Linga[/bold yellow]")
         console.print("[bold white]    ----------------------------------[/bold white]")
 
     def run(self):
